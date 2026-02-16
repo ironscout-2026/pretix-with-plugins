@@ -1,4 +1,4 @@
-FROM pretix/standalone:2026.1.0
+FROM pretix/standalone:2026.1.1
 USER root
 RUN pip3 install git+https://github.com/kolaente/pretix-roboto-slab.git \
     pretix-dbevent
